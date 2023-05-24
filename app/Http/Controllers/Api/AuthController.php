@@ -8,11 +8,9 @@ use App\Http\Requests\RegisterRequest;
 use App\Models\User;
 use App\Traits\ApiResponse;
 use Illuminate\Http\Exceptions\HttpResponseException;
-use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
-use Laravel\Sanctum\HasApiTokens;
 
 class AuthController extends Controller
 {
